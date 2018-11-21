@@ -12,6 +12,7 @@
 		CECEB4B1218FC80300FE453E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECEB4AF218FC80300FE453E /* Main.storyboard */; };
 		CECEB4B3218FC80500FE453E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECEB4B2218FC80500FE453E /* Assets.xcassets */; };
 		CECEB4B6218FC80500FE453E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECEB4B4218FC80500FE453E /* LaunchScreen.storyboard */; };
+		CECEB4BE218FD14100FE453E /* logo_dosen_120_120.png in Resources */ = {isa = PBXBuildFile; fileRef = CECEB4BD218FD14100FE453E /* logo_dosen_120_120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CECEB4B2218FC80500FE453E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECEB4B5218FC80500FE453E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECEB4B7218FC80500FE453E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECEB4BD218FD14100FE453E /* logo_dosen_120_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_dosen_120_120.png; path = ../../../logo_dosen_120_120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CECEB4B2218FC80500FE453E /* Assets.xcassets */,
 				CECEB4B4218FC80500FE453E /* LaunchScreen.storyboard */,
 				CECEB4B7218FC80500FE453E /* Info.plist */,
+				CECEB4BD218FD14100FE453E /* logo_dosen_120_120.png */,
 			);
 			path = DosenApp;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			files = (
 				CECEB4B6218FC80500FE453E /* LaunchScreen.storyboard in Resources */,
 				CECEB4B3218FC80500FE453E /* Assets.xcassets in Resources */,
+				CECEB4BE218FD14100FE453E /* logo_dosen_120_120.png in Resources */,
 				CECEB4B1218FC80300FE453E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,15 +286,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7M5T26VN7A;
 				INFOPLIST_FILE = DosenApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = topapp.id.DosenApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,15 +307,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7M5T26VN7A;
 				INFOPLIST_FILE = DosenApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = topapp.id.DosenApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
